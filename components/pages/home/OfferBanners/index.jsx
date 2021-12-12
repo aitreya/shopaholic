@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
+import { GrNext, GrPrevious } from "react-icons/gr"
 import Banner from './Banner'
 
 export default function index() {
@@ -12,18 +13,18 @@ export default function index() {
         autoplay: true,
         autoplaySpeed: 5000,
         arrows: true,
-        nextArrow : <img src="rightarr.svg" alt="" style={{height : "500px !important"}}/>,
-        prevArrow : <img src="leftarr.svg" alt="" />
+        nextArrow: <GrNext />,
+        prevArrow: <GrPrevious />
     };
 
-    const offers = ["Bhai sab free h" , "99% discount available" , "baad me ja" , "aur kitte offer lega "]
+    const offers = ["Bhai sab free h", "99% discount available", "baadh me ja", "aur kitte offer lega "]
 
     return (
-        <div className="w-2/3 mx-auto mt-4 mb-10 border-4 border-cblue rounded-2xl">
+        <div className="w-2/3 mx-auto mt-4 mb-10 border-4 border-cblack rounded-2xl">
             <Slider {...settings}>
-                {offers.map((i,key) => <Banner data={i} key={key}/>)}
+                {offers.map((i, key) => <Banner data={i} key={key} />)}
             </Slider>
-            
+
         </div>
     )
 }
