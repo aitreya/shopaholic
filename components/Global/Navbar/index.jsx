@@ -1,8 +1,9 @@
 import React from 'react'
 
 export default function Index() {
+    const btnstyles = "h-20 bg-cblack px-10 flex justify-between"
     return (
-        <div className="h-20 bg-gray-700 px-10 flex justify-between">
+        <div className={btnstyles}>
             <div className="flex justify-center items-center">
                 <img src="yt.svg" alt="" className="h-12 cursor-pointer" />
             </div>

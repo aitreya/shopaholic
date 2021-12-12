@@ -16,10 +16,10 @@ export default function index() {
         prevArrow : <img src="leftarr.svg" alt="" />
     };
 
-    const offers = ["Bhai sab free h" , "99% discount available" , "baad me ja" , "aur kitte offer lega gaandu"]
+    const offers = ["Bhai sab free h" , "99% discount available" , "baad me ja" , "aur kitte offer lega "]
 
     return (
-        <div className="w-2/3 mx-auto mt-4">
+        <div className="w-2/3 mx-auto mt-4 mb-10 border-4 border-cblue rounded-2xl">
             <Slider {...settings}>
                 {offers.map((i,key) => <Banner data={i} key={key}/>)}
             </Slider>
