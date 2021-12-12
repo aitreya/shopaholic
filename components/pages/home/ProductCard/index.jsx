@@ -3,7 +3,7 @@ import { AiFillStar } from "react-icons/ai"
 
 export default function Index() {
   return (
-    <div className="w-80 rounded-md bg-white mr-4 hover:scale-105 cursor-pointer relative">
+    <div className="w-80 rounded-md bg-white mr-4 hover:scale-105 cursor-pointer relative group">
       <img src="/tv.jpeg" alt="" className="rounded p-5" />
       <div className="flex flex-col justify-center items-center">
         <h4 className="w-4/5 mt-4">
@@ -14,7 +14,7 @@ export default function Index() {
           <span className="line-through">$7000</span>
           <span className="font-semibold text-dgreen">20% off</span>
         </p>
-        <div className="flex absolute top-2 right-2 w-14 justify-evenly items-center bg-dgreen text-white font-semibold text-center rounded-lg">
+        <div className="hidden absolute top-2 right-2 w-14 justify-evenly items-center bg-dgreen text-white font-semibold text-center rounded-lg group-hover:flex">
           <AiFillStar />
           4.5
         </div>
