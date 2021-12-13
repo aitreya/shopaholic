@@ -5,12 +5,12 @@ import {CgProfile} from "react-icons/cg"
 
 export default function Index() {
     return (
-        <div className="h-20 bg-cyellow px-10 flex justify-between sticky top-0 z-10 shadow-xl items-center">
+        <div className="h-20 bg-cred px-10 flex justify-between sticky top-0 z-10 shadow-xl items-center">
             <div className="flex justify-center items-center">
-                <img src="yt.svg" alt="" className="h-12 cursor-pointer" />
+                <img src="" alt="" className="h-12 cursor-pointer" />
             </div>
             <SearchBar/>
-            <div className="flex justify-center items-center gap-6">
+            <div className="flex justify-center items-center gap-6 text-white">
                 <GiHamburgerMenu className="text-2xl cursor-pointer"/>
                 <CgProfile className="text-4xl cursor-pointer"/>
             </div>

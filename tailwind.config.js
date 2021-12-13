@@ -6,8 +6,8 @@ module.exports = {
     extend: {
       colors : {
         cgrey : "#D7DEDC",
-        cblack : "#2B303A",
-        cred : "#FF8966",
+        cblack : "#FCE694",
+        cred : "#160C28",
         cblue : "#5CC9FF",
         cyellow : "#FEC601",
         dgreen : "#388e3c",
